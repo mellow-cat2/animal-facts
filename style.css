@@ -448,3 +448,34 @@ body.dark-mode #dailyFact {
 body, header, footer, button, #dailyFact {
   transition: background 0.5s, color 0.5s, transform 0.3s;
 }
+.footer-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-btn {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.footer-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.07);
+}
+.dark-mode .footer-btn {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .footer-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
